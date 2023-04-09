@@ -26,6 +26,9 @@ defmt-info = []
 defmt-warn = []
 defmt-error = []
 
+[patch.crates-io]
+defmt = { git = "https://github.com/knurling-rs/defmt", rev = "064ba39690cf5beb74b95e9acb24ccc6c105a57e" } 
+
 # cargo-release configuration
 [package.metadata.release]
 tag-message = "{{version}}"
