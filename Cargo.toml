@@ -2,7 +2,7 @@
 name = "mini-slcan"
 version = "0.1.1"
 authors = ["Jonas Schievink <jonasschievink@gmail.com>"]
-edition = "2018"
+edition = "2021"
 description = "Serial Line CAN (SLCAN) protocol decoder/encoder"
 documentation = "https://docs.rs/mini-slcan/"
 repository = "https://github.com/jonas-schievink/mini-slcan.git"
@@ -15,8 +15,8 @@ license = "0BSD"
 maintenance = { status = "actively-developed" }
 
 [dependencies]
-bitflags = "1.2.1"
-defmt = "0.1.0"
+bitflags = {version = "1.3.2"}
+defmt = "0.3.4"
 
 [features]
 defmt-default = []

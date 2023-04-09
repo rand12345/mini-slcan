@@ -156,7 +156,7 @@ impl DerefMut for CanFrame {
 }
 
 impl Format for CanFrame {
-    fn format(&self, fmt: &mut defmt::Formatter) {
+    fn format(&self, fmt: defmt::Formatter<'_>) {
         self.data().format(fmt)
     }
 }
